@@ -126,10 +126,43 @@ body {
     border: 1px solid black;
 }
 
+.search-container{
+    display: flex;
+    justify-content: center;
+}
 
+.form{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    padding: 6vh;
+    flex-direction: column;
+    flex-wrap: wrap;
 
+}
 
+.btn_search{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: none;
+    width: 310px;
+    border-radius: 6px;
+}
 
+.search-container button {
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 6px;
+
+}
 
 
 

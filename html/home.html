@@ -20,9 +20,7 @@
   <body>
     <div class="topnav" id="myTopnav">
       <a href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+      <a href="./cart.html">Cart</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -31,6 +29,16 @@
 
     <div class="body_content">
       <h1 style="text-align: center; color: white">All Courses</h1>
+      <br />
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" />
+          <div class="btn_search">
+            <button type="submit">Search by Name</button>
+            <button type="submit">Search by Category</button>
+          </div>
+        </form>
+      </div>
       <br />
       <div class="content_container">
         <div class="card">
